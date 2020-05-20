@@ -1,0 +1,279 @@
+/* Main Button Area css
+============================================================================================ */
+.submit_btn{
+	width: auto;
+	display: inline-block;
+	background: #333333;
+	padding: 0px 50px;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 50px;
+	border-radius: 5px;
+	outline: none !important;
+	box-shadow: none !important;
+	text-align: center;
+	border: 1px solid $border_color;
+	cursor: pointer;
+	@include transform_time(0.5s);
+	&:hover{
+		background: transparent;
+		
+	}
+}
+.btn_1{
+	display: inline-block;
+	padding: 9px 42px;
+	border-radius: 50px;
+	background-color: $section_bg;
+	font-size: 15px;
+	font-weight: 700;
+	color: #333;
+	@include transform_time(0.5s);
+	&:hover{
+		background-color: $btn_bg;
+		color: $white_color;
+	}
+}
+.btn_3{
+	display: inline-block;
+	padding: 9px 42px;
+	border-radius: 50px;
+	background-color: $btn_bg;
+  font-size: 15px;
+	font-weight: 700;
+	color: $white_color;
+	text-transform: uppercase;
+	font-weight: 400;
+	border: 1px solid $btn_bg;
+	@include transform_time(0.5s);
+	&:hover{
+		background-color: $white_color;
+		color: #444;
+		
+	}
+}
+.btn_2{
+	display: inline-block;
+	width: 130px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #fff;
+	font-size: 15px;
+	font-family: $font_stack_2;
+	font-weight: 900;
+	color: #000;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+	text-transform: capitalize;
+	background-size: 200% auto;
+	text-transform: uppercase;
+
+	
+	&:hover{
+		color: $offwhite !important;
+		background-position: right center;
+	}
+	@media #{$tab}{
+		height: 50px;
+		width: 140px;
+		line-height: 50px;
+	}
+	@media #{$medium_device}{
+	
+	}
+	@media #{$small_mobile}{
+		height: 50px;
+		width: 110px;
+		margin: 5px;
+	}
+}
+
+
+.btn_4{
+	color: $btn_bg;
+	font-size: 15px;
+	font-weight: 700;
+	margin-top: 53px;
+	display: inline-block;
+	@include transform_time(0.5s);
+	@media #{$tab}{
+		margin-top: 30px;
+	}
+	@media #{$medium_device}{
+	
+	}
+	img{
+		width: 20px;
+		margin-left: 15px;
+	}
+
+}
+
+.btn-5{
+	display: inline-block;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: $offwhite;
+	font-size: 15px;
+	font-family: $font_stack_2;
+	font-weight: 500;
+	color: $title-color;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+	text-transform: capitalize;
+	background-size: 200% auto;
+	text-transform: uppercase;
+	&:hover{
+		color: $text-color !important;
+		background-position: right center;
+	}
+	@media #{$tab}{
+		height: 50px;
+		width: 140px;
+		line-height: 50px;
+	}
+	@media #{$medium_device}{
+	} 
+	@media #{$small_mobile}{
+		height: 50px;
+		width: 120px;
+		margin: 5px;
+	}
+}
+.btn-6{
+	display: inline-block;
+	width: 140px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #333333;
+	font-size: 15px;
+	font-family: $font_stack_2;
+	font-weight: 500;
+	color: #fff;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+	text-transform: capitalize;
+	background-size: 200% auto;
+	
+	&:hover{
+		color: #fff !important;
+		background-position: right center;
+	}
+	@media #{$tab}{
+		height: 50px;
+		width: 140px;
+		line-height: 50px;
+	}
+	@media #{$medium_device}{
+	
+	}
+	 
+}
+.btn_7{
+	display: inline-block;
+	width: 180px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #333333;
+	font-size: 15px;
+	font-family: $font_stack_2;
+	font-weight: 500;
+	color: $white_color;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+	text-transform: capitalize;
+	background-size: 200% auto;
+	text-transform: uppercase;
+	
+	&:hover{
+		color: $offwhite !important;
+		background-position: right center;
+	}
+	@media #{$tab}{
+		height: 50px;
+		width: 140px;
+		line-height: 50px;
+	}
+	@media #{$medium_device}{
+	
+	}
+}
+/*=================== custom button rule start ====================*/
+
+.button{
+	display: inline-block;
+	border: 1px solid transparent;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 12px 54px;
+	border-radius: 4px;
+	color: $white_color;
+	border: 1px solid $border_color;
+	text-transform: uppercase;
+	background-color: $btn_bg;
+	cursor: pointer;
+	@include transform_time(0.5s);
+
+	@media(max-width: 767px){
+		font-size: 13px;
+		padding: 9px 24px;
+	}
+
+	&:hover{
+		color: $white_color;
+	}
+
+
+	&-link{
+		letter-spacing: 0;
+		color: #3b1d82;
+		border: 0;
+		padding: 0;
+
+		&:hover{
+			background: transparent;
+			color: #3b1d82;
+		}
+	}
+
+	&-header{
+		color: $white_color;
+		border-color: $border_color;
+
+		&:hover{
+			background: #b8024c;
+			color: $white_color;
+		}
+	}
+
+	&-contactForm{
+		color: $white_color;
+		border-color: $border_color;
+		padding: 12px 25px;
+
+		&:hover{
+			// border-color: $title-color;
+			// background: $title-color;
+			// color: $white_color;
+		}
+	}
+}
+
+
+
+/* End Main Button Area css
+============================================================================================ */

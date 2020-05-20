@@ -1,0 +1,91 @@
+/**************** service_part css start ****************/
+.feature_part {
+  h2{
+    font-weight: 500;
+    color: #333333;
+  }
+  .single_feature_post_text {
+    background-color: $white;
+    position: relative;
+    height: 300px;
+    img{
+      height: 220px;
+      width: auto;
+    }
+   h3 {
+      font-size: 24px;
+      font-weight: 400;
+      margin-top: 21px;
+
+      @media #{$small_mobile} {
+        margin-top: 10px;
+      }
+
+      @media #{$large_mobile} {}
+
+      @media #{$tab_device} {}
+
+      @media #{$medium_device} {}
+    }
+
+    .feature_btn {
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      background-color: #333333;
+      border: 2px solid #fff;
+      padding: 15px;
+      color: #fff;
+      position: absolute;
+      left: 24%;
+      bottom: 80px;
+      line-height: 15px;
+      z-index: 5;
+      opacity: 0;
+      visibility: hidden;
+      @include transform_time(0.5s);
+      @media #{$small_mobile}{
+        left: 32%;
+      }
+      @media #{$tab_device}{
+        left: 29%;
+      }
+      @media #{$medium_device}{
+        left: 18%;
+      }
+    }
+  
+
+    
+
+    &:hover {
+      .feature_btn {
+        bottom: 150px;
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+}
+
+.featured-section{
+  background-color: #000000;
+  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+  }
+  
+  h3{
+     font-size: 1.2rem;
+     font-weight: 400;
+     color: #fff;
+  }
+  p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #fff;
+}
+}
+

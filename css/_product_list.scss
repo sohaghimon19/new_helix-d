@@ -1,0 +1,40 @@
+/***************** bideo background css *******************/
+.video-container{
+  .video-overlay{
+    position: relative;
+    img{
+      height: 550px;
+      @media #{$tab_device} {
+        height: 400px;
+        }
+        @media #{$large_mobile} {
+          height: 350px;
+      }
+      @media #{$small_mobile} {
+        height: 250px;
+      }
+    }
+    .play-icon{
+      position: absolute;
+      top: 0;
+      left: 20px;
+      a{
+        text-decoration: none;
+        font-size: 4rem;
+        color:#808080;
+      }
+    }
+  }
+  iframe{
+    height: 600px;
+      @media #{$tab_device} {
+        height: 400px;
+    }
+      @media #{$large_mobile} {
+        height: 350px;
+    }
+    @media #{$small_mobile} {
+      height: 300px;
+    }
+    }
+  }
